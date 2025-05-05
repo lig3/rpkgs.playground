@@ -1,0 +1,31 @@
+Package: rpkgs.playground
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: c(
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+    person("Gang", "Li", , "lig32@outlook.com", role = "aut"),
+    person("John", "Doe", , "johndoe@johndoe.com", role = "aut"),
+    person("Company, Inc", role = c("cph", "fnd"))
+  )
+Description: What the package does (one paragraph).
+License: GPL (>= 3)
+Depends: 
+    R (>= 2.10)
+Imports: 
+    glue,
+    sessioninfo,
+    stringr (>= 1.5.1)
+Suggests: 
+    fs,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0),
+    tidyr,
+    waldo,
+    withr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3
+VignetteBuilder: knitr

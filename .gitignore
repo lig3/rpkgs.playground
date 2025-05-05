@@ -1,0 +1,7 @@
+.Rproj.user
+^rpkgs\\.playground\\.Rproj$
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto

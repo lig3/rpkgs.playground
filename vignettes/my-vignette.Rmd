@@ -1,0 +1,49 @@
+---
+title: "my-vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(rpkgs.playground)
+```
+
+Below is an example call to function `rpkgs.playground::mfl()`. 
+
+```{r}
+mfl()
+```
+
+Below code tries to read a `.csv` file under the same folder. 
+
+```{r}
+# Pay attention to path that `read.csv()` uses
+tb <- tidyr::as_tibble(read.csv("ext1.csv", stringsAsFactors = FALSE))
+tb
+```
+
+## Code chunk options
+
+Below is for testing out code chunk options `include` and `echo`. Below is the 
+result of the code chunk who have option `include = FALSE`. We don't expect any 
+results printed in rendered file. 
+
+```{r, include = FALSE}
+message("This message is printed in a code chunk with `include = FALSE`. ")
+```
+
+And this is results of code chunk with option `echo = FALSE`. 
+
+```{r, echo = FALSE}
+message("This message is printed in a code chunk with `echo = FALSE`. ")
+```
