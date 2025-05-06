@@ -3,7 +3,7 @@ pkgdown: 2.1.2
 pkgdown_sha: ~
 articles:
   my-vignette: my-vignette.html
-last_built: 2025-05-05T15:32Z
+last_built: 2025-05-06T05:41Z
 urls:
   reference: https://lig3.github.io/rpkgs.playground/reference
   article: https://lig3.github.io/rpkgs.playground/articles
