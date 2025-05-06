@@ -8,6 +8,8 @@ mfl2 <- function() {
 }
 
 #' Change my favorite letters
+#' @param l String to be set as `the$favorite_letters`, default to
+#'   `letters[24:26]`
 #' @export
 set_mfl2 <- function(l = letters[24:26]) {
   old <- the$favorite_letters

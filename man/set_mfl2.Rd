@@ -6,6 +6,10 @@
 \usage{
 set_mfl2(l = letters[24:26])
 }
+\arguments{
+\item{l}{String to be set as \code{the$favorite_letters}, default to
+\code{letters[24:26]}}
+}
 \description{
 Change my favorite letters
 }
