@@ -4,6 +4,8 @@
 # rpkgs.playground
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/lig3/rpkgs.playground/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/lig3/rpkgs.playground/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of rpkgs.playground is to …
