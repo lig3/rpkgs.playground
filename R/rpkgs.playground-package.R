@@ -3,6 +3,7 @@
 
 ## usethis namespace: start
 #' @importFrom glue glue_collapse
+#' @importFrom lifecycle deprecated
 ## usethis namespace: end
 NULL
 
