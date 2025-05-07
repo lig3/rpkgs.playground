@@ -20,7 +20,13 @@ knitr::opts_chunk$set(
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The goal of rpkgs.playground is to ...
+rpkgs.playground is an result of learning R package development. This package is
+made as a playground to try using various tools of workflow in R package 
+development. 
+
+The author made this package in the reading of [R Package 2e](https://r-pkgs.org/)
+by Hadley Wickham and Jennifer Bryan. Tools and practices teached in the are 
+exercised here. 
 
 ## Installation
 

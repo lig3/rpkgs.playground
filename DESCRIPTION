@@ -1,5 +1,5 @@
 Package: rpkgs.playground
-Title: What the Package Does (One Line, Title Case)
+Title: Exercise for Learning Purpose
 Version: 0.0.0.9001
 Authors@R: c(
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
@@ -8,7 +8,7 @@ Authors@R: c(
     person("John", "Doe", , "johndoe@johndoe.com", role = "aut"),
     person("Company, Inc", role = c("cph", "fnd"))
   )
-Description: What the package does (one paragraph).
+Description: An outcome of exercise for learning R package development. 
 License: GPL (>= 3)
 Depends: 
     R (>= 2.10)

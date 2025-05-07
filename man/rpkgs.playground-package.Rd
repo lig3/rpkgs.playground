@@ -4,9 +4,9 @@
 \name{rpkgs.playground-package}
 \alias{rpkgs.playground}
 \alias{rpkgs.playground-package}
-\title{rpkgs.playground: What the Package Does (One Line, Title Case)}
+\title{rpkgs.playground: Exercise for Learning Purpose}
 \description{
-What the package does (one paragraph).
+An outcome of exercise for learning R package development.
 }
 \seealso{
 Useful links:
